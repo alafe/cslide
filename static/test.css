@@ -73,3 +73,10 @@ section:nth-last-of-type(2){
     height: 436px;
     line-height: 436px;
 }
+.wa-part:first-child{
+    height: 400px;
+    line-height: 400px;
+}
+.wa-part:not(:first-child){
+    opacity: 0;
+}
